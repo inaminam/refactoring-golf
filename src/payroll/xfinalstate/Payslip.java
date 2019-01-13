@@ -1,4 +1,4 @@
-package payroll.hole10;
+package payroll.xfinalstate;
 
 public class Payslip {
     private final double grossSalary;

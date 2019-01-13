@@ -1,5 +1,9 @@
 # Refactoring Golf
-`https://github.com/sf105/refactoring-golf`
+
+A fork of `https://github.com/sf105/refactoring-golf` - I've slightly changed this readme and 
+included the junit lib for easier import into different versions of IDEs.
+
+To import into intelliJ IDEA, `File -> New -> Project from existing sources...`
 
 _Refactoring Golf_ is a game designed to stretch your refactoring muscles and 
 to get you to explore your IDE to see what's really possible using 
@@ -13,10 +17,11 @@ This repository contains multiple versions of a simple class to calculate tax on
 * Up to 40,000 is taxed at 20%
 * Above 40,000 is taxed at 40%
 
-Each version is a refactoring of the previous version. Sticking with the golf metaphor, 
-each version is called a "hole". 
+**Each version is a refactoring of the previous version.**
+Sticking with the golf metaphor, going from one version to the next is called a "hole".
+i.e. **Hole1 is `payroll.hole01.Payslip` -> `payroll.hole02.Payslip`**
 
-Your goal is to refactor from each _hole_ to the next safely and efficiently,
+Your goal is to refactor from one state of the code to the next state safely and efficiently,
 using the features of the IDE with as few "strokes" as possible, where a _stroke_ is 
 an action that changes the code. Every stroke costs you points.
 

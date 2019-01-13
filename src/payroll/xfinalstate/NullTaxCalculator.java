@@ -1,4 +1,4 @@
-package payroll.hole10;
+package payroll.xfinalstate;
 
 public class NullTaxCalculator implements TaxCalculator {
 	@Override

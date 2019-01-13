@@ -1,4 +1,4 @@
-package payroll.hole10;
+package payroll.xfinalstate;
 
 public class BandedTaxCalculator implements TaxCalculator {
 	private final double minimumGross;
